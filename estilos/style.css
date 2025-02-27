@@ -14,9 +14,12 @@ html, body {
 }
 
 body {
+    width: 100vw;
+    height: 100vh;
    background: url('../pacote-d013/imagens/fundo-madeira.jpg') no-repeat top center;
    background-size: cover; /*cobrir a tela inteira*/
    background-attachment: fixed; /* Isso faz com que a tela fique fixa e não tenha rolagem */
+   background-size: cover;
  
 }
 
@@ -36,4 +39,13 @@ main {
     width: 311px;
     background: url('../pacote-d013/imagens/frame-iphone.png')
     
+    
+}
+
+iframe#tela {
+    position: relative;  
+    top: 80px;
+    left:22px;
+    width: 265px;
+    height: 471px;
 }
