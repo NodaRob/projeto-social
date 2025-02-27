@@ -9,16 +9,31 @@
 html, body {
     height: 100vh; /*Altura total do navegador*/
     width: 100vw; /*Largura total do navegador*/
-    background-color: black;
+    
+   
+}
+
+body {
+   background: url('../pacote-d013/imagens/fundo-madeira.jpg') no-repeat top center;
+   background-size: cover; /*cobrir a tela inteira*/
+   background-attachment: fixed; /* Isso faz com que a tela fique fixa e não tenha rolagem */
+ 
 }
 
 main {
     height:100vh;
     position:relative;
-    background-color: green;
     
-}
 
-section#telefone {
+}section#telefone {
+    position: absolute; /* permite posicionar o elemento em qualquer posição da tela*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:blue;
 
+    height: 627px;
+    width: 311px;
+    background: url('../pacote-d013/imagens/frame-iphone.png')
+    
 }
